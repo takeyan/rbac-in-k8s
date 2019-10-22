@@ -43,7 +43,7 @@ spec:
             claimName: mqtt-nfs
       containers:
         - name: mqtt
-          image: "registry.ng.bluemix.net/rbac-tutorial/mqtt-img:1"
+          image: "jp.icr.io/rbac-tutorial/mqtt-img:1"
           imagePullPolicy: Always
           env:
             - name: MQTT_PUMP_PASS

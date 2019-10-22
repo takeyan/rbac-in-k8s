@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: tools-v1
-          image: "registry.ng.bluemix.net/rbac-tutorial/tools-img:1"
+          image: "jp.icr.io/rbac-tutorial/tools-img:1"
           imagePullPolicy: Always
           command: ["/bin/sleep", "3601"]
